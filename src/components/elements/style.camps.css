@@ -1,0 +1,71 @@
+
+
+
+#full_camps{
+    margin-right: 40px;
+    border: 1px solid #000000;
+    height: 300px;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    color: rgb(59, 59, 59);
+    margin-bottom: 50px;
+
+}
+
+
+
+#p_bottom{
+    padding-bottom: 34px;
+}
+
+
+#lix_services{
+    position: relative;
+    top: 3px;
+}
+
+
+#button_edit_services{
+    width: 96%;
+}
+
+
+#full_camps div{
+    padding: 15px;
+}
+
+#full_camps span{
+    font-weight: bold;
+
+}
+
+
+#space,
+#spacetwo{
+    margin-left: 5px;
+    font-size: 1em;
+
+}
+
+
+
+
+
+#h1_camps{
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 2em;
+    background-color: black;
+    color: rgb(239, 163, 21);
+    padding: 10px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    #button_edit_services{
+        width: 80%;
+    }
+    
+}

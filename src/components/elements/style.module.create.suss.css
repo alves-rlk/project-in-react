@@ -1,0 +1,62 @@
+
+.container_mes{
+   width: 100%;
+   text-align: center;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+
+.suss{
+    width: 50vw;
+    height: 70px;
+    background-color: #d4edda;
+    color: .155724;
+    border: 1px solid .000;
+    border-color: #c3e6cb;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.erro{
+    padding: 1.5em;
+    height: 50px;
+    background-color: #721c24;
+    color: #f8d7da;
+    border: 1px solid #000;
+    top: -15px;
+    border-color: #f5c6cb;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.delete{
+    padding: 1.5em;
+    height: 50px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #000;
+    border-color: #c3e6cb;
+    top: -15px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,218 @@
+.div{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.full{
+    margin-right: 40px;
+    border: 1px solid #000000;
+    height: 300px;
+    width: 360px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 1.5em;
+    color: rgb(59, 59, 59);
+
+}
+
+
+.xx{
+    width: 200px;   
+    
+}
+
+.recurs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h1-projects{
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.full > h4{
+    background-color: black;
+    padding: 10px;
+    font-size: 1.7em;
+    color: rgb(243, 162, 13);
+    margin-bottom: 1em;
+}
+
+.full > h4, p{
+    text-align: left;
+}
+
+
+.span-one{
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+.p-one{
+    position: relative;
+    top: -15px;
+    left: -1px;
+}
+
+.infra{
+    background-color: #ffaebc;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 3px;
+    left: -1px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.developer{
+    background-color: #a0e7e5;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 3px;
+    left: -1px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+
+.desing{
+    background-color: rgb(139, 240, 159);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 3px;
+    left: -1px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.planning{
+    background-color: #fbe7c6;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 3px;
+    left: -1px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.button-ful{
+   background-color: blue;
+}
+
+
+
+#submit-edit{
+    position: relative;
+    top: 70px;
+    left: -30px;
+    border: 1px solid #222;
+    background-color: #fff;
+    color: #222;
+    font-size: 0.9em;
+    padding: 0.6em 1em;
+    cursor: pointer;
+    
+}
+
+#submit-edit:hover{
+    background-color: #222;
+    color: #fff;
+}
+
+
+#submit-remove{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    border: 1px solid #222;
+    background-color: #fff;
+    color: #222;
+    font-size: 0.9em;
+    padding: 0.6em 1em;
+    cursor: pointer;
+}
+
+#submit-remove:hover{
+    background-color: rgb(151, 48, 48);
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 790px){
+    .h1-projects{
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+   
+
+    .div{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+  
+
+
+    footer{
+        display: none;
+    }
+
+
+
+    .span-one{
+        font-weight: bold;
+        margin-left: 1em;
+    }
+    
+    .p-one{
+        position: relative;
+        top: -15px;
+    }
+    
+    .round-color{
+        background-color: blue;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 3px;
+        left: -5px;
+        border-radius: 50%;
+        display: inline-block;
+    
+    }
+
+
+    .submit-edit{
+        position: relative;
+        top: 75px;
+        left: -30px;
+    }
+
+
+    #submit-remove{
+        position: relative;
+        top: 75px;
+        left: 30px;
+    }
+
+    #submit-remove:hover{
+        background-color: rgb(151, 48, 48);
+        color: white;
+    }
+}

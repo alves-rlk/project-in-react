@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import CreateImg from './img';
+import RoutesApp from './routes';
+import { FaFacebook ,FaInstagram, FaLinkedin  } from "react-icons/fa";
 
 function App() {
   return (
+    <body className='body-full'>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <header>
+        <div id='div_footer'>
+              <nav>
+              <a href="#"><FaFacebook className="icons-footer"/></a>
+              <a href="#"><FaInstagram  className="icons-footer"/></a>
+              <a href="#"><FaLinkedin  className="icons-footer"/></a>
+              </nav>
+         </div>
+          <CreateImg/>
+          <nav>
+          <ul className='ul-header'>
+            <li  className='li-header'><a href='/'>Home</a></li>
+            <li className='li-header'><a href='/contact'>Contact</a></li>
+            <li className='li-header'><a href='/company'>Company</a></li>
+            <li className='li-header'><a href='/projectcreatesuss'>My projects</a></li>
+          </ul>
+          </nav>
+        </header>
+        <main className='main'>
+          <RoutesApp/> 
+        </main>
     </div>
+    </body>
   );
 }
 

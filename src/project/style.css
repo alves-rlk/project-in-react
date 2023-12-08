@@ -1,0 +1,19 @@
+.container-create-project{
+    width: 400px;
+    margin: auto;
+}
+
+input, select{
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+
+
+button{
+    padding: 5px;
+    cursor: pointer;
+    width: 40%;
+}

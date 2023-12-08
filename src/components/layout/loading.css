@@ -1,0 +1,39 @@
+#container-loa{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading_div{
+    position: relative;
+}
+
+#img-loading{
+    width: 50px;
+    
+}
+
+
+
+.edit_loading{
+    width: 100%;
+    height: 100%;
+    text-align: center;  
+}
+
+.text-p-project-invalid{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+#button-newproject{
+    position: absolute;
+    top: 60px;
+}
+
+
+@media screen and (max-width: 768) {
+    
+}
